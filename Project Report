@@ -1,0 +1,38 @@
+Project Report: Exploratory Data Analysis on the Iris Dataset
+
+1. Introduction
+
+The objective of this project is to perform an exploratory data analysis (EDA) on the famous Iris dataset, which consists of measurements of three species of iris flowers: Setosa, Versicolor, and Virginica. The dataset includes four features: sepal length, sepal width, petal length, and petal width. The aim is to analyze the dataset, visualize patterns, and gain insights into the relationships between these features.
+
+2. Methodology
+
+2.1 Data Loading and Exploration
+
+The dataset was loaded using the Pandas library.
+
+The first few rows of the dataset were examined using df.head() to understand its structure.
+
+df.info() was used to check for data types and missing values.
+
+df.isnull().sum() confirmed that there were no missing values in the dataset.
+
+2.2 Data Visualization
+
+Scatter Plot: A scatter plot of sepal length versus sepal width was created using Seaborn, with different colors representing different species.
+
+Histogram: A histogram was plotted to visualize the distribution of sepal length, using 15 bins and including a KDE (Kernel Density Estimate) for better visualization of the distribution.
+
+3. Results and Findings
+
+Scatter Plot Insights: The scatter plot revealed distinct clusters for different iris species, indicating that sepal length and width can be used for classification.
+
+Histogram Insights: The distribution of sepal length is approximately normal, with some variation among species.
+
+No missing values were detected in the dataset, ensuring data quality for further analysis.
+
+4. Conclusion
+
+This analysis provided useful insights into the Iris dataset through data visualization. The scatter plot showed clear separations between species, and the histogram revealed useful information about the feature distributions. These findings can be further utilized for classification tasks using machine learning models.
+
+5. Future Work
+
